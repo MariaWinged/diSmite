@@ -1,2 +1,6 @@
+from core.config import settings
+
 if __name__ == '__main__':
-    print('Hello there')
+    if settings.hirez_config.devId:
+        pass
+    pass
