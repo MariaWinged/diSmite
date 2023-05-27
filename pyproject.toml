@@ -7,10 +7,11 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-discord = "^2.2.2"
+discord = "^2.2.3"
 pyrez = "^1.1.1.1"
 dotenv = "^0.0.5"
-pydantic = {extras = ["dotenv"], version = "^1.10.5"}
+pydantic = {extras = ["dotenv"], version = "^1.10.8"}
+table2ascii = "^1.1.1"
 
 [build-system]
 requires = ["poetry-core"]

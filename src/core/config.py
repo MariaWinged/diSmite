@@ -21,7 +21,8 @@ class DiscordConfig(BaseConfig):
     token: str
     bot: str = 'diSmite'
     appId: int
-    prefix: str = '%'
+    prefix: list[str] = ['~']
+    intents: int = 395137644544
 
     class Config:
         env_prefix = 'DISCORD_'
